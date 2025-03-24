@@ -13,7 +13,6 @@ async function receiveMail() {
                 channel.ack(message);
             }
         });
-        // noAck: true => message will be removed from the queue once it is consumed
 
 
     } catch (error) {
